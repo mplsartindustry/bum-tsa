@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "78015758-5650-467e-8d26-bf5d508c5851")
 	(paper "A4")
+	(title_block
+		(title "\"Tsa!\"")
+		(company "Uoki Toki")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM13700"
 			(pin_names
@@ -4032,7 +4036,7 @@
 	)
 	(text "Res"
 		(exclude_from_sim no)
-		(at 224.79 17.78 0)
+		(at 224.79 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6424,7 +6428,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 232.41 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 201.93 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8150,7 +8154,7 @@
 		(fields_autoplaced yes)
 		(uuid "50eab3fe-c0fa-4450-8041-63e3602a9483")
 		(property "Reference" "R20"
-			(at 214.63 20.32 90)
+			(at 214.63 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8159,8 +8163,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 214.63 22.86 90)
+		(property "Value" "180R"
+			(at 214.63 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9250,7 +9254,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22k"
 			(at 227.33 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10946,7 +10950,7 @@
 		(fields_autoplaced yes)
 		(uuid "94fff7c4-730c-4fa9-8a68-dab37546b9fc")
 		(property "Reference" "RV4"
-			(at 224.79 20.32 90)
+			(at 224.79 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10955,8 +10959,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 224.79 22.86 90)
+		(property "Value" "B10k"
+			(at 224.79 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11462,7 +11466,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1670416-ab5c-45fa-8591-e003a188b4a2")
 		(property "Reference" "R26"
-			(at 234.95 20.32 90)
+			(at 234.95 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11471,8 +11475,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 234.95 22.86 90)
+		(property "Value" "10k"
+			(at 234.95 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11747,7 +11751,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab5aefea-ecca-4d2b-8437-cf33daeabd87")
 		(property "Reference" "R25"
-			(at 232.41 38.1 90)
+			(at 232.41 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11756,8 +11760,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 232.41 40.64 90)
+		(property "Value" "1k"
+			(at 232.41 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11835,7 +11839,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 201.93 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14622,7 +14626,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdc4fbdd-3d6b-49e1-835f-e462d4b24cba")
 		(property "Reference" "C9"
-			(at 218.44 85.09 90)
+			(at 218.44 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14631,8 +14635,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 218.44 87.63 90)
+		(property "Value" "10n"
+			(at 218.44 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
